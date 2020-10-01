@@ -11,9 +11,10 @@ import Typography from '@material-ui/core/Typography';
 const useStyles = makeStyles({
   root: {
     maxWidth: 600,
+    height: 300,
   },
   media: {
-    height: 140,
+    height: 200,
   },
 });
 
@@ -32,9 +33,9 @@ export default function MediaCard(props) {
           <Typography gutterBottom variant="h5" component="h2">
             {props.title}
           </Typography>
-         
+
         </CardContent>
-        </CardActionArea>   
+      </CardActionArea>
     </Card>
   );
 }
