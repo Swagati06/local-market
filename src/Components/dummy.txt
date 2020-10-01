@@ -1,0 +1,37 @@
+<CardMedia
+          className={classes.media}
+          image="https://images.pexels.com/photos/1005638/pexels-photo-1005638.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+          title="Grocery"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="h2">
+            Grocery
+          </Typography>
+          
+        </CardContent>
+        
+        
+        <CardMedia
+          className={classes.media}
+          image="https://i.insider.com/5c5b0d335a148f11c410c5b4?width=600&format=jpeg&auto=webp"
+          title="Hardware"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="h2">
+            Hardware
+          </Typography>
+         
+        </CardContent>
+        
+        
+        <CardMedia
+          className={classes.media}
+          image="https://s3-us-west-2.amazonaws.com/commercehq-userfiles-master/commercehq-store-eeaca839583a42e15da19b7fc901a309_da39a3ee5e6b4b0d3255bfef95601890afd80709/fb9eb0a57c0841eeaf66371aab2caf09_make_up_HD1.jpg"
+          title="Cosmetics"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="h2">
+            Cosmetics
+          </Typography>
+          
+        </CardContent>
