@@ -18,9 +18,16 @@ class landingPage extends Component {
       <div>
         <div style={{ backgroundImage: 'url(https://images.pexels.com/photos/1087727/pexels-photo-1087727.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)', height: 700, backgroundSize: 'cover', }}>
 
-          <div style={{ fontSize: 30, textAlign: 'center', color: 'white', paddingTop: 50 }}>
-            Hello World
+          <div className = "font-txt">
+          <h1 style={{ fontSize: 70, fontFamily:'Anton', textAlign: 'center', color: 'white', paddingTop: 140 }}><i>ITS' AN "ADD TO CART" KINDA DAY!!!</i></h1>
           </div>
+      
+        <div style={{ fontSize: 20, textAlign: 'center', color: 'white', paddingTop: 0 }}>
+        <b>The world is shifting online – the web is now the most popular destination for all needs especially shopping.<br />
+        So it’s not just enough to dress up your store windows, but it’s equally important to have an attractive online<br />
+        store as a web and mobile application. And what better resource than content to decorate your online store!
+        </b></div>
+          
         </div>
 
         <div>

@@ -21,8 +21,8 @@ function App() {
         <Drawer title={<Link style={{textDecoration:'none', color:'black'}} to="/">VENDO</Link>}>
             <Navigation>
                 <Link to="/resume">PRODUCTS</Link>
-                <Link to="/about">About Me</Link>
-                <Link to="/contact">Contact Me</Link>
+                <Link to="/about">About us</Link>
+                <Link to="/contact">Contact us</Link>
                 
             </Navigation>
         </Drawer>
