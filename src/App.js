@@ -16,11 +16,11 @@ function App() {
                         <div class='form-inline'>
                             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
                         </div>
-                        <Link to="/resume">SHOP</Link>
-                        <Link to="/about">SELL</Link>
-                        <Link to="/projects">ABOUT US</Link>
-                        <Link to="/about">SIGN IN</Link>
-                        <Link to='/signup'>SIGN UP</Link>
+                        <Link to="/resume"><b>SHOP</b></Link>
+                        <Link to="/about"><b>SELL</b></Link>
+                        <Link to="/projects"><b>ABOUT US</b></Link>
+                        <Link to="/about"><b>SIGN IN</b></Link>
+                        <Link to='/signup'><b>SIGN UP</b></Link>
                     </Navigation>
                 </Header>
                 <Drawer title={<Link style={{ textDecoration: 'none', color: 'black' }} to="/">VENDO</Link>}>
