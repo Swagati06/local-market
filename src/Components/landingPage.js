@@ -5,7 +5,7 @@ import styles from '../styles/landinpage.css'
 
 const card_contents = [
   { title: "CLOTHING", url: "https://images.pexels.com/photos/1078958/pexels-photo-1078958.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" },
-  { title: "GROCERY", url: "https://images.pexels.com/photos/1005638/pexels-photo-1005638.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" },
+  { title: "GROCERY", url: "https://media.istockphoto.com/photos/supermarket-aisle-with-empty-shopping-cart-business-concept-picture-id961081004" },
   { title: "COSMATICS", url: "https://s3-us-west-2.amazonaws.com/commercehq-userfiles-master/commercehq-store-eeaca839583a42e15da19b7fc901a309_da39a3ee5e6b4b0d3255bfef95601890afd80709/fb9eb0a57c0841eeaf66371aab2caf09_make_up_HD1.jpg" },
   { title: "HARDWARE", url: "https://media.istockphoto.com/photos/home-appliance-in-the-store-picture-id515443264?k=6&m=515443264&s=612x612&w=0&h=QgzJ5Wq44l5_A-4J1pRm6HJ-3R6Y4d0SxQuNfBdiw4Y=" },
 ]
