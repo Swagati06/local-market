@@ -21,6 +21,8 @@ class landingPage extends Component {
           <div style={{ fontSize: 30, textAlign: 'center', color: 'white', paddingTop: 50 }}>
             Hello World
           </div>
+          <h1 >hello</h1>
+          <p>f;nrpi p;eofgjrp;io ;lnkeflrikgn</p>
         </div>
 
         <div>
