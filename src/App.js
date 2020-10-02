@@ -3,12 +3,16 @@ import './App.css';
 import {Header, Navigation,Layout, Drawer, Content } from 'react-mdl'
 import Main from './Components/main'
 import {Link} from 'react-router-dom'
+import GridListTileBar from '@material-ui/core/GridListTileBar';
+
 
 
 
 function App() {
   return (
     <div className="demo-big-content">
+    
+
     <Layout>
         <Header className='header-color' title={<Link style={{textDecoration:'none', color:'white'}} to="/">VENDO</Link>} scroll>
             

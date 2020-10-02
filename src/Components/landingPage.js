@@ -3,6 +3,7 @@ import { Grid, Cell } from "react-mdl";
 import Card from './Card.js'
 import styles from '../styles/landinpage.css'
 
+
 const card_contents = [
   { title: "CLOTHING", url: "https://images.pexels.com/photos/1078958/pexels-photo-1078958.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" },
   { title: "GROCERY", url: "https://media.istockphoto.com/photos/supermarket-aisle-with-empty-shopping-cart-business-concept-picture-id961081004" },
@@ -27,6 +28,7 @@ class landingPage extends Component {
         So it’s not just enough to dress up your store windows, but it’s equally important to have an attractive online<br />
         store as a web and mobile application. And what better resource than content to decorate your online store!
         </b></div>
+        
           
         </div>
 

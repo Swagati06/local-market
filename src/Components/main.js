@@ -10,7 +10,6 @@ import {Redirect} from 'react-router-dom'
 const Main = () => (
     <Switch>
         <Route exact path="/" component={LandingPage} />
-        
         <Route path="/about" component={About} />
         <Route path="/projects" component={Projects} />
         <Route path="/contact" component={Contact} />
