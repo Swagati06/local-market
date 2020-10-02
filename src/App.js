@@ -3,7 +3,6 @@ import './App.css';
 import {Header, Navigation,Layout, Drawer, Content } from 'react-mdl'
 import Main from './Components/main'
 import {Link} from 'react-router-dom'
-import GridListTileBar from '@material-ui/core/GridListTileBar';
 
 
 
@@ -18,17 +17,22 @@ function App() {
             
         <Navigation>
                 <Link to="/resume">SHOP</Link>
-                <Link to="/about">SELL</Link>
-                <Link to="/projects">ABOUT US</Link>
-                <Link to="/about">SIGN IN</Link>
+                <Link to="/sell">SELL</Link>
+                
+                <Link to="/signup">SIGN UP</Link>
+                <Link to="/projects">CART</Link>
                 
             </Navigation>
         </Header>
         <Drawer title={<Link style={{textDecoration:'none', color:'black'}} to="/">VENDO</Link>}>
             <Navigation>
-                <Link to="/resume">PRODUCTS</Link>
-                <Link to="/about">About us</Link>
-                <Link to="/contact">Contact us</Link>
+                <Link to="/resume">My Account</Link>
+                <Link to="/about">Your Order</Link>
+                <Link to="/about">Track Your Order</Link>
+                <Link to="/contact">Manage</Link>
+                <Link to="/resume">Help</Link>
+                <Link to="/resume">Contact us</Link>
+                <Link to="/resume">Log Out</Link>
                 
             </Navigation>
         </Drawer>
