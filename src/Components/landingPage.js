@@ -16,7 +16,7 @@ class landingPage extends Component {
   render() {
     return (
       <div>
-        <div style={{ backgroundImage: 'url(https://images.pexels.com/photos/1087727/pexels-photo-1087727.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)', height: 700, backgroundSize: 'cover', }}>
+        <div style={{ backgroundImage: 'url(https://images.pexels.com/photos/896619/pexels-photo-896619.jpeg?cs=srgb&dl=pexels-artem-beliaikin-896619.jpg&fm=jpg)' , height: 700, backgroundSize: 'cover', }}>
 
           <div className = "font-txt">
           <h1 style={{ fontSize: 70, fontFamily:'Anton', textAlign: 'center', color: 'white', paddingTop: 140 }}><i>IT'S AN "ADD TO CART" KINDA DAY !!!</i></h1>
