@@ -5,6 +5,7 @@ import {Switch, Route} from 'react-router-dom'
 import About from './aboutMe'
 import Projects from './projects'
 import Contact from './contacts'
+
 import {Redirect} from 'react-router-dom'
 
 const Main = () => (
@@ -14,6 +15,7 @@ const Main = () => (
         <Route path="/about" component={About} />
         <Route path="/projects" component={Projects} />
         <Route path="/contact" component={Contact} />
+        
         <Redirect to="/" />
     </Switch>
 )

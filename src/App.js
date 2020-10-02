@@ -17,7 +17,7 @@ function App() {
                 <Link to="/about">SELL</Link>
                 <Link to="/projects">ABOUT US</Link>
                 <Link to="/about">SIGN IN</Link>
-                
+                <Link to="/order">Orders</Link>
             </Navigation>
         </Header>
         <Drawer title={<Link style={{textDecoration:'none', color:'black'}} to="/">VENDO</Link>}>
