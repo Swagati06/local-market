@@ -1,71 +1,51 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import GridList from '@material-ui/core/GridList';
-import GridListTile from '@material-ui/core/GridListTile';
-import GridListTileBar from '@material-ui/core/GridListTileBar';
-import ListSubheader from '@material-ui/core/ListSubheader';
-import IconButton from '@material-ui/core/IconButton';
-import InfoIcon from '@material-ui/icons/Info';
-import tileData from './tileData';
+import './Sell.css';
+import CardItem from './CardItem';
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    display: 'flex',
-    flexWrap: 'wrap',
-    justifyContent: 'space-around',
-    overflow: 'hidden',
-    backgroundColor: theme.palette.background.paper,
-  },
-  gridList: {
-    width: 500,
-    height: 450,
-  },
-  icon: {
-    color: 'rgba(255, 255, 255, 0.54)',
-  },
-}));
-
-/**
- * The example data is structured as follows:
- *
- * import image from 'path/to/image.jpg';
- * [etc...]
- *
- * const tileData = [
- *   {
- *     img: image,
- *     title: 'Image',
- *     author: 'author',
- *   },
- *   {
- *     [etc...]
- *   },
- * ];
- */
-export default function TitlebarGridList() {
-  const classes = useStyles();
-
+function Cards() {
   return (
-    <div className={classes.root}>
-      <GridList cellHeight={180} className={classes.gridList}>
-        <GridListTile key="Subheader" cols={2} style={{ height: 'auto' }}>
-          <ListSubheader component="div">December</ListSubheader>
-        </GridListTile>
-        {tileData.map((tile) => (
-          <GridListTile key={tile.img}>
-            <img src={tile.img} alt={tile.title} />
-            <GridListTileBar
-              title={tile.title}
-              subtitle={<span>by: {tile.author}</span>}
-              actionIcon={
-                <IconButton aria-label={`info about ${tile.title}`} className={classes.icon}>
-                  <InfoIcon />
-                </IconButton>
-              }
+    <div className='cards'>
+      <h1>Check out these EPIC Shopping!</h1>
+      <div className='cards__container'>
+        <div className='cards__wrapper'>
+          <ul className='cards__items'>
+            <CardItem
+              src='images/cloth.jpg'
+              text='CLOTHING'
+              label='Cloths'
+              path='/services'
             />
-          </GridListTile>
-        ))}
-      </GridList>
+            <CardItem
+              src='images/electronic.jpg'
+              text='ELECTRONICS'
+              label='ELECTRONIC'
+              path='/services'
+            />
+          </ul>
+          <ul className='cards__items'>
+            <CardItem
+              src='images/cosmatic.jpg'
+              text='COSMATICS                    '
+              label='COSMATICS'
+              path='/services'
+            />
+            <CardItem
+              src='images/grocery.jpg'
+              text='GROCERY                       '
+              label='GROCERY'
+              path='/products'
+            />
+            <CardItem
+              src='images/img-8.jpg'
+              text='HOME&KITCHEN           '
+              label='HOME'
+              path='/sign-up'
+            />
+          </ul>
+        </div>
+      </div>
     </div>
   );
 }
+
+export default Cards;
