@@ -1,51 +1,38 @@
-import React from 'react';
-import './Sell.css';
-import CardItem from './CardItem';
+import React from "react";
+import ReactDOM from "react-dom";
+import Carousel from "react-elastic-carousel";
+import Item from "./Item.js";
+import './Sell.css'
 
-function Cards() {
+
+const breakPoints = [
+  { width: 1, itemsToShow: 1 },
+  { width: 550, itemsToShow: 2 },
+  { width: 768, itemsToShow: 3 },
+  { width: 1200, itemsToShow: 4 },
+];
+
+function Sell() {
   return (
-    <div className='cards'>
-      <h1>Check out these EPIC Shopping!</h1>
-      <div className='cards__container'>
-        <div className='cards__wrapper'>
-          <ul className='cards__items'>
-            <CardItem
-              src='images/cloth.jpg'
-              text='CLOTHING'
-              label='Cloths'
-              path='/services'
-            />
-            <CardItem
-              src='images/electronic.jpg'
-              text='ELECTRONICS'
-              label='ELECTRONIC'
-              path='/services'
-            />
-          </ul>
-          <ul className='cards__items'>
-            <CardItem
-              src='images/cosmatic.jpg'
-              text='COSMATICS                    '
-              label='COSMATICS'
-              path='/services'
-            />
-            <CardItem
-              src='images/grocery.jpg'
-              text='GROCERY                       '
-              label='GROCERY'
-              path='/products'
-            />
-            <CardItem
-              src='images/img-8.jpg'
-              text='HOME&KITCHEN           '
-              label='HOME'
-              path='/sign-up'
-            />
-          </ul>
-        </div>
+    <>
+      <h1 style={{ textAlign: "center" }}>FIND YOUR OWN CITY SHOPS!!</h1>
+      <div className="App">
+      
+        <Carousel breakPoints={breakPoints}>
+          <Item>NANDED</Item>
+          <Item>PUNE</Item>
+          <Item>MUMBAI</Item>
+          <Item>AURANGABAD</Item>
+          <Item>NASHIK</Item>
+          <Item>HYDRABAD</Item>
+          <Item>DELHI</Item>
+        
+        </Carousel>
       </div>
-    </div>
+    </>
   );
 }
 
-export default Cards;
+const rootElement = document.getElementById("root");
+ReactDOM.render(<Sell />, rootElement);
+export default Sell;

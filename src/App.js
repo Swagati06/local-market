@@ -24,7 +24,7 @@ function App() {
         </Header>
         <Drawer title={<Link style={{textDecoration:'none', color:'black'}} to="/">VENDO</Link>}>
             <Navigation>
-                <Link to="/resume">My Account</Link>
+                <Link to="/Account">My Account</Link>
                 <Link to="/about">Your Order</Link>
                 <Link to="/about">Track Your Order</Link>
                 <Link to="/about">Manage</Link>
@@ -59,7 +59,7 @@ function App() {
         </Header>
         <Drawer title={<Link style={{textDecoration:'none', color:'black'}} to="/">VENDO</Link>}>
             <Navigation>
-                <Link to="/contact">My account</Link>
+                <Link to="/Account">My account</Link>
                 <Link to="/contact">Your Order</Link>
                 <Link to="/resume">Track Your Order</Link>
                 <Link to="/about">Manage</Link>
