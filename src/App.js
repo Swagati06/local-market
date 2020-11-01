@@ -13,10 +13,12 @@ function App() {
                 <Header className='header-color' title={<Link style={{ textDecoration: 'none', color: 'white' }} to="/">VENDO</Link>} scroll>
 
                     <Navigation>
-                        <form class="form-inline my-2 my-lg-0">
-                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
-                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                        </form>
+                        <div>
+                            <form className="form-inline my-2 my-lg-0">
+                                <input className="form-control" type="search" placeholder="Search Here" aria-label="Search" />
+                                <button className="btn btn-info my-2 my-sm-0" type="submit">Search</button>
+                            </form>
+                        </div>
                         <Link to="/resume">SHOP</Link>
                         <Link to="/Sell">SELL</Link>
 
@@ -44,47 +46,6 @@ function App() {
             </Layout>
         </div>
     );
-
-    function App() {
-
-        return (
-            <div className="demo-big-content">
-                <Layout>
-                    <Header className='header-color' title={<Link style={{ textDecoration: 'none', color: 'white' }} to="/"><b>VENDO</b></Link>} scroll>
-
-                        <Navigation>
-                            <Link to="/resume"><b>SHOP</b></Link>
-                            <Link to="/Sell"><b>SELL</b></Link>
-                            <Link to="/projects"><b>CATEGORIES</b></Link>
-                            <Link to="/signup"><b>SIGN UP</b></Link>
-                            <Link to="/cart"><b>CART</b></Link>
-                        </Navigation>
-                    </Header>
-                    <Drawer title={<Link style={{ textDecoration: 'none', color: 'black' }} to="/">VENDO</Link>}>
-                        <Navigation>
-                            <Link to="/contact">My account</Link>
-                            <Link to="/contact">Your Order</Link>
-                            <Link to="/resume">Track Your Order</Link>
-                            <Link to="/about">Manage</Link>
-                            <Link to="/about">About us</Link>
-                            <Link to="/contact">Contact us</Link>
-                            <Link to="/about">Help</Link>
-                            <Link to="/resume">Log Out</Link>
-
-                            {/* <Link to="/contact"></Link> */}
-
-                        </Navigation>
-                    </Drawer>
-                    <Content>
-                        <div className="page-content" />
-                        <Main />
-                    </Content>
-                </Layout>
-            </div>
-        );
-
-
-    }
 
 }
 

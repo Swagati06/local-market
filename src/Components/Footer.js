@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
-    <div className='footer-container'>
+    <div className='bg-dark pt-5'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join our Local to Vokal sale
+          Join our Local to Vocal sale
         </p>
         <p className='footer-subscription-text'>
           You can unsubscribe at any time.
@@ -18,57 +18,52 @@ function Footer() {
               className='footer-input'
               name='email'
               type='email'
-              placeholder='Your Email'
+              placeholder='Enter Your Email'
             />
-            
+
           </form>
-          <b>SUBSCRIBE</b>
+          <button className='btn btn-danger'>SUBSCRIBE</button>
         </div>
       </section>
-      <div class='footer-links'>
-        <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
-            <h2>About Us</h2>
-            <Link to='/sign-up'>How it works</Link>
-            <Link to='/'>Testimonials</Link>
-            <Link to='/'>Careers</Link>
-            <Link to='/'>Investors</Link>
-            <Link to='/'>Terms of Service</Link>
-          </div>
-          <div class='footer-link-items'>
-            <h2>Contact Us</h2>
-            <Link to='/'>Contact</Link>
-            <Link to='/'>Support</Link>
-            <Link to='/'>Destinations</Link>
-            <Link to='/'>Sponsorships</Link>
-          </div>
+      {/* <div className='row no-gutters'>
+        <div className='col-3'>
+          <h2>About Us</h2>
+          <Link to='/sign-up' className='w-100'>How it works</Link>
+          <Link to='/' className='w-100'>Testimonials</Link>
+          <Link to='/'>Careers</Link>
+          <Link to='/'>Investors</Link>
+          <Link to='/'>Terms of Service</Link>
         </div>
-        <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
-            <h2>Videos</h2>
-            <Link to='/'>Submit Video</Link>
-            <Link to='/'>Ambassadors</Link>
-            <Link to='/'>Agency</Link>
-            <Link to='/'>Influencer</Link>
-          </div>
-          <div class='footer-link-items'>
-            <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
-            <Link to='/'>Youtube</Link>
-            <Link to='/'>Twitter</Link>
-          </div>
+        <div className='col-3'>
+          <h2>Contact Us</h2>
+          <Link to='/'>Contact</Link>
+          <Link to='/'>Support</Link>
+          <Link to='/'>Destinations</Link>
+          <Link to='/'>Sponsorships</Link>
         </div>
-      </div>
-      <section class='social-media'>
-        <div class='social-media-wrap'>
-          <div class='footer-logo'>
-            <Link to='/' className='social-logo'>
-              VENDO
-              <i class='fab fa-typo3' />
-            </Link>
-          </div>
+        <div className='col-3'>
+          <h2>Videos</h2>
+          <Link to='/'>Submit Video</Link>
+          <Link to='/'>Ambassadors</Link>
+          <Link to='/'>Agency</Link>
+          <Link to='/'>Influencer</Link>
+        </div>
+        <div className='col-3'>
+          <h2>Social Media</h2>
+          <Link to='/'>Instagram</Link>
+          <Link to='/'>Facebook</Link>
+          <Link to='/'>Youtube</Link>
+          <Link to='/'>Twitter</Link>
+        </div>
+      </div> */}
+      <div className='row no-gutters text-center align-items-center'>
+        <div class='col-4'>
+          <h2 className='text-light'>VENDO</h2>
+        </div>
+        <div className='col-4'>
           <small class='website-rights'>VENDO © 2020</small>
+        </div>
+        <div className='col-4 d-flex justify-content-end pr-5'>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
@@ -76,7 +71,7 @@ function Footer() {
               target='_blank'
               aria-label='Facebook'
             >
-              <i class='fab fa-facebook-f' />
+              <i class='fa fa-facebook' />
             </Link>
             <Link
               class='social-icon-link instagram'
@@ -84,7 +79,7 @@ function Footer() {
               target='_blank'
               aria-label='Instagram'
             >
-              <i class='fab fa-instagram' />
+              <i class='fa fa-instagram' />
             </Link>
             <Link
               class='social-icon-link youtube'
@@ -92,7 +87,7 @@ function Footer() {
               target='_blank'
               aria-label='Youtube'
             >
-              <i class='fab fa-youtube' />
+              <i class='fa fa-youtube-play' />
             </Link>
             <Link
               class='social-icon-link twitter'
@@ -100,7 +95,7 @@ function Footer() {
               target='_blank'
               aria-label='Twitter'
             >
-              <i class='fab fa-twitter' />
+              <i class='fa fa-twitter' />
             </Link>
             <Link
               class='social-icon-link twitter'
@@ -108,11 +103,11 @@ function Footer() {
               target='_blank'
               aria-label='LinkedIn'
             >
-              <i class='fab fa-linkedin' />
+              <i class='fa fa-linkedin-square' />
             </Link>
           </div>
         </div>
-      </section>
+      </div>
     </div>
   );
 }

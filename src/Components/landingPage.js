@@ -28,6 +28,12 @@ class landingPage extends Component {
         store as a web and mobile application. And what better resource than content to decorate your online store!
         </b></div>
 
+          <div className='d-flex justify-content-center w-100 my-5'>
+            <form className="form-inline my-2 my-lg-0 w-100 d-flex justify-content-center">
+              <input className="form-control w-50 pl-4" type="search" placeholder="Search Here" aria-label="Search" style={{ height: 45, borderRadius: 0 }} />
+              <button className="btn btn-info my-2 my-sm-0 px-5" style={{ height: 45, borderRadius: 0 }} type="submit">Search</button>
+            </form>
+          </div>
 
         </div>
 
