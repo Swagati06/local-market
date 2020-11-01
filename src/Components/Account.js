@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './Account.css'
+import '../styles/Account.css'
 
 
 
@@ -15,7 +15,7 @@ class Form extends Component {
 
 
         }
-        this.handleSubmit=this.handleSubmit.bind(this)
+        this.handleSubmit = this.handleSubmit.bind(this)
     }
 
     firsthandler = (event) => {
@@ -49,8 +49,8 @@ class Form extends Component {
             password: '',
             gender: "",
         })
-     event.preventDefault()
-        
+        event.preventDefault()
+
     }
 
 
@@ -74,7 +74,7 @@ class Form extends Component {
                 </form>
 
             </div>
-            
+
         )
     }
 }

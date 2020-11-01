@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Carousel from "react-elastic-carousel";
 import Item from "./Item.js";
-import './Sell.css'
+import '../styles/Sell.css'
 
 
 const breakPoints = [
@@ -16,7 +16,7 @@ function Sell() {
   return (
     <>
       <h1 style={{ textAlign: "center" }}>FIND YOUR OWN CITY SHOPS!!</h1>
-      <div className="App">
+      <div className="App px-5">
 
         <Carousel breakPoints={breakPoints}>
           <Item>NANDED</Item>
