@@ -1,8 +1,4 @@
 import React, { Component } from 'react'
-import '../styles/Account.css'
-
-
-
 class Form extends Component {
     constructor(props) {
         super(props)
