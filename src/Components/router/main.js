@@ -12,7 +12,7 @@ import Clothing from '../shoppingCategory/Clothing'
 import Grocery from '../shoppingCategory/Grocery'
 import Cosmetics from '../shoppingCategory/Cosmetics'
 import Hardware from '../shoppingCategory/Hardware'
-
+import page1 from '../page1'
 
 const Main = () => (
     <Switch>
@@ -27,7 +27,7 @@ const Main = () => (
         <Route path='/grocery' component={Grocery} />
         <Route path='/cosmetics' component={Cosmetics} />
         <Route path='/hardware' component={Hardware} />
-
+        <Route path='/page1' component={page1} />
         <Redirect to="/" />
     </Switch>
 )
