@@ -13,7 +13,7 @@ export default class Grocery extends Component {
                                     <img class="card-img-top" src={shop.img} alt="shop img" />
                                     <div className='card-body'>
                                         <h5 class="card-title" className='font-weight-bold'>{shop.name}</h5>
-                                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                        <p class="card-text">Daily Needs grocery shops.</p>
                                     </div>
                                 </div>
                             </div>

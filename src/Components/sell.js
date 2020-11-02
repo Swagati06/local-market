@@ -11,6 +11,9 @@ const breakPoints = [
   { width: 768, itemsToShow: 3 },
   { width: 1200, itemsToShow: 4 },
 ];
+const handleItem=()=>{
+  console.log("abc")
+} 
 
 function Sell() {
   return (
@@ -19,7 +22,7 @@ function Sell() {
       <div className="App px-5">
 
         <Carousel breakPoints={breakPoints}>
-          <Item>NANDED</Item>
+          <Item onClick={handleItem}>NANDED</Item>
           <Item>PUNE</Item>
           <Item>MUMBAI</Item>
           <Item>AURANGABAD</Item>
@@ -32,7 +35,6 @@ function Sell() {
     </>
   );
 }
-
 const rootElement = document.getElementById("root");
 ReactDOM.render(<Sell />, rootElement);
 export default Sell;
