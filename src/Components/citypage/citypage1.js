@@ -1,11 +1,15 @@
-import oneShopImage from './shopImages/grocery2.jpg'
-import twoShopImage from './shopImages/grocery3.jpg'
-import threeShopImage from './shopImages/grocery4.jpg'
-import fourShopImage from './shopImages/grocery5.jpg'
+import oneShopImage from './cImages/cshop1.jpg'
+import twoShopImage from './cImages/cshop2.jpg'
+import threeShopImage from './cImages/cshop3.jpg'
+import fourShopImage from './cImages/cshop7.jpg'
+import fiveShopImage from './cImages/cshop5.jpg'
+import sixShopImage from './cImages/cshop6.jpg'
+import sevenShopImage from './cImages/cshop4.jpg'
+import eightShopImage from './cImages/cshop8.jpg'
 
 const shops = [
     {
-        name: 'Gro And Go',
+        name: 'Fashion',
         slogan: 'Buy More, Pay Less!!',
         address: 'Anand nagar, near Shardanagar, Nanded',
         img: oneShopImage
@@ -22,11 +26,40 @@ const shops = [
         address: 'Anand nagar, near Shardanagar, Nanded',
         img: threeShopImage
     },
+   
     {
-        name: 'Better Bites',
+        name: 'Fashion',
         slogan: 'Buy More, Pay Less!!',
         address: 'Anand nagar, near Shardanagar, Nanded',
         img: fourShopImage
+    },
+
+    {
+        name: 'Electro',
+        slogan: 'Buy More, Pay Less!!',
+        address: 'Anand nagar, near Shardanagar, Nanded',
+        img: fiveShopImage
+    },
+
+    {
+        name: 'Sweet Home',
+        slogan: 'Buy More, Pay Less!!',
+        address: 'Anand nagar, near Shardanagar, Nanded',
+        img: sixShopImage
+    },
+
+    {
+        name: 'Nyakka',
+        slogan: 'Buy More, Pay Less!!',
+        address: 'Anand nagar, near Shardanagar, Nanded',
+        img: sevenShopImage
+    },
+
+    {
+        name: 'Lootmaar',
+        slogan: 'Buy More, Pay Less!!',
+        address: 'Anand nagar, near Shardanagar, Nanded',
+        img: eightShopImage
     },
 ]
 

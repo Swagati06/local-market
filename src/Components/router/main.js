@@ -12,7 +12,7 @@ import Clothing from '../shoppingCategory/Clothing'
 import Grocery from '../shoppingCategory/Grocery'
 import Cosmetics from '../shoppingCategory/Cosmetics'
 import Hardware from '../shoppingCategory/Hardware'
-import page1 from '../page1'
+import page1 from '../cityShopping/page1'
 
 const Main = () => (
     <Switch>

@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 
-import shops from '../Components/page1'
+import shops from '../citypage/citypage1'
 
 export default class page1 extends Component {
     render() {
         console.log(shops)
         return (
-            <div className='p-5'>
+            <div className='p-4'>
                 <div className='row'>
                     {shops.map(shop => {
                         return (
