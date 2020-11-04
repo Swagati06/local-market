@@ -1,21 +1,14 @@
 .App {
   background: #b7b6e9;
-  display:flex;
+  display: flex;
   align-items: center;
   justify-content: center;
-<<<<<<< HEAD
-  height:6%;
+  height: 6%;
   padding: 10%;
   font-family: "Noto Serif", serif;
   border-radius: 10px;
-=======
-  height: 50%;
-  padding: 14%;
-  
 }
->>>>>>> 0195448799b496a14097ea3901f340afb3ac0bdc
 
-}
-h1{
+h1 {
   font-family: "Noto Serif", serif;
 }
