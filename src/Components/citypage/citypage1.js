@@ -11,26 +11,26 @@ const shops = [
     {
         name: 'Fashion',
         slogan: 'Buy More, Pay Less!!',
-        address: 'Anand nagar, near Shardanagar, Nanded',
+        address: 'Anand nagar, Nanded',
         img: oneShopImage
     },
     {
         name: 'Freshest Fields',
         slogan: 'Buy More, Pay Less!!',
-        address: 'Anand nagar, near Shardanagar, Nanded',
+        address: 'Shivaji nagar, Nanded',
         img: twoShopImage
     },
     {
         name: 'Great Eats Grocery',
         slogan: 'Buy More, Pay Less!!',
-        address: 'Anand nagar, near Shardanagar, Nanded',
+        address: 'Chatrapati chauk, Nanded',
         img: threeShopImage
     },
    
     {
         name: 'Fashion',
         slogan: 'Buy More, Pay Less!!',
-        address: 'Anand nagar, near Shardanagar, Nanded',
+        address: 'More Chauk, Nanded',
         img: fourShopImage
     },
 

@@ -14,8 +14,11 @@ export default class page1 extends Component {
                                 <div className='card'>
                                     <img class="card-img-top" src={shop.img} alt="shop img" />
                                     <div className='card-body'>
-                                        <h5 class="card-title" className='font-weight-bold'>{shop.name}</h5>
-                                        <p class="card-text">Here some stylish cloths for you.</p>
+                                        <h5 class="card-title" className='font-weight-bold'>{shop.name}
+                                        <br />
+                                        {shop.address}<br />
+                                        </h5>
+                                        <p class="card-text"></p>
                                     </div>
                                 </div>
                             </div>

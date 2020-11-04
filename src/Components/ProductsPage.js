@@ -19,9 +19,10 @@ export default class productPage extends Component {
                   />
                   <div className="card-body">
                     <h5 class="card-title" className="font-weight-bold">
-                      {shop.name}
+                      {shop.name}<br/>
+                      {shop.price}
                     </h5>
-                    <p class="card-text">Here some stylish cloths for you.</p>
+                    <p class="card-text"></p>
                   </div>
                 </div>
               </div>
