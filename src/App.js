@@ -20,7 +20,7 @@ function App() {
                             </form>
                         </div>
                         <Link to="/resume">SHOP</Link>
-                        <Link to="/Sell">SELL</Link>
+                        <Link to="/Sell">BUY</Link>
 
                         <Link to="/signup">SIGN UP</Link>
                         <Link to="/projects">CART</Link>
