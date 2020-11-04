@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 import  './Admin.css'
 
-export default class UserSignup extends Component {
+export default class AdminSignup extends Component {
     render() {
         return (
             <div className='card'>
                 <div className='card-body pt-0'>
-                    <h3 className='card-title d-inline-flex justify-content-center p-1 mb-5'>User</h3>
+                    <h3 className='card-title d-inline-flex justify-content-center p-1 mb-5'>User Register</h3>
                     <form>
                         <div class="form-row">
                             <div class="form-group col-md-6">
@@ -30,7 +30,7 @@ export default class UserSignup extends Component {
                             <div class="form-group col-md-4">
                                 <label for="inputState">State</label>
                                 <select id="inputState" class="form-control">
-                            
+                                    
                                     <option>Maharashtra</option>
                                 </select>
                             </div>
