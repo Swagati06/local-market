@@ -20,19 +20,19 @@ class landingPage extends Component {
         <div style={{ backgroundImage: 'url(https://images.pexels.com/photos/1087727/pexels-photo-1087727.jpeg?cs=srgb&dl=pexels-min-an-1087727.jpg&fm=jpg)', height: 550, backgroundSize: 'cover', }}>
 
           <div className="font-txt">
-            <h1 style={{ fontSize: 70, fontFamily: 'Anton', textAlign: 'center', color: 'white', paddingTop: 140 }}><i>IT'S AN "ADD TO CART" KINDA DAY !!!</i></h1>
+            <h1 style={{ fontSize: 70, fontFamily:"Noto Serif", textAlign: 'center', color: 'white', paddingTop: 140 }}><i>IT'S AN "ADD TO CART" KINDA DAY !!!</i></h1>
           </div>
 
-          <div style={{ fontSize: 20, textAlign: 'center', color: 'white', paddingTop: 50 }}>
+          <div style={{ fontFamily:"Noto Serif",fontSize: 20, textAlign: 'center', color: 'white', paddingTop: 50 }}>
             <b>The world is shifting online – the web is now the most popular destination for all needs especially shopping.<br />
         So it’s not just enough to dress up your store windows, but it’s equally important to have an attractive online<br />
         store as a web and mobile application. And what better resource than content to decorate your online store!
         </b></div>
 
           <div className='d-flex justify-content-center w-100 my-5'>
-            <form className="form-inline my-2 my-lg-0 w-100 d-flex justify-content-center">
-              <input className="form-control w-50 pl-4" type="search" placeholder="Search City" aria-label="Search" style={{ height: 45, borderRadius: 0 }} />
-              <button className="btn btn-info my-2 my-sm-0 px-5" style={{ height: 45, borderRadius: 0 }} type="submit">Search</button>
+            <form className="form-inline">
+              <input className="form-control text-center w-50 pl-2" type="search" placeholder="Search City" aria-label="Search" style={{  height: 45, borderRadius: 10 }} />
+              <button className="btn btn-info text-center my-sm-0 px-5" style={{ height: 45, borderRadius: 10 }} type="submit">Search</button>
             </form>
           </div>
 

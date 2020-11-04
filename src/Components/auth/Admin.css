@@ -1,0 +1,57 @@
+/*background-image: linear-gradient(#fbc2eb,#d0ddf3,#a0f1ea);
+  /*background-image: linear-gradient(#49464e,#E0857F,#EABBBC);
+  /*background-image: linear-gradient(#F2EEE5,#E5C1C5,#C3E2DD);*/
+/*background-image: linear-gradient(#204254,#B94A3E);*/
+/*background-image: linear-gradient(black,grey,white);*/
+.card-title{
+    font-family:"Noto Serif", serif;
+}
+.card {
+  box-shadow: 3px 5px 6px #474647;
+  border-radius: 15px;
+  margin: 12%;
+  margin-top: 10%;
+  box-sizing: border-box;
+  font-size: 25px;
+  color: black;
+  padding: 4px;
+  text-align: center;
+  justify-content:center;
+  /*background-image: linear-gradient(#F9957f,#f2f5D0);*/
+  background-image: linear-gradient(#588fa1, #a8c0c9, #f8a696);
+  font-family: "Noto Serif", serif;
+}
+
+h3 {
+  
+  background-color: #e9edf1ee;
+  border-radius:5px;
+  text-align: center;
+  margin-top: 1%;
+}
+
+.form-control{ 
+  background-color:transparent;
+  margin: 2px;
+  padding: 2px;
+  font-family: "Noto Serif", serif;
+  color:Black;
+}
+button {
+  background-color: #e9edf1ee;
+  color: black;
+  font-size: 20px;
+  margin-top: 10%;
+  text-align: center;
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  padding: 7px;
+  border: none;
+}
+.form-control{
+  font-family: "Noto Serif", serif;
+}
+div{
+  font-family: "Noto Serif", serif;
+}
