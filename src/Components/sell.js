@@ -14,7 +14,7 @@ const breakPoints = [
 ];
 const cities=["NANDED","PUNE","MUMBAI","AURANGABAD","NASHIK","HYDERABAD","DELHI"]
 
-function Sell() {
+function sell() {
   return (
     <>
       <h1 style={{ textAlign: "center" }}>FIND YOUR OWN CITY SHOPS!!</h1>
@@ -38,4 +38,4 @@ function Sell() {
 
 // const rootElement = document.getElementById("root");
 // ReactDOM.render(<Sell />, rootElement);
-export default Sell;
+export default sell;
