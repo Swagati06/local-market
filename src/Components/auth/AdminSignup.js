@@ -6,7 +6,7 @@ export default class AdminSignup extends Component {
         return (
             <div className='card'>
                 <div className='card-body pt-0'>
-                    <h3 className='card-title d-inline-flex justify-content-center p-1 mb-5'>Shopowner</h3>
+                    <h3 className='card-title d-inline-flex justify-content-center p-1 mb-5'>Shopowner Register</h3>
                     <form>
                         <div class="form-row">
                             <div class="form-group col-md-6">
