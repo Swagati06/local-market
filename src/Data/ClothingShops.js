@@ -57,8 +57,8 @@ const shops = [
         address: 'Anand nagar, near Shardanagar, Nanded',
         img: cloth4ShopImage
     },
-   
-    
+
+
 ]
 
 
