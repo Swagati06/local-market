@@ -2,24 +2,32 @@ import React from "react";
 //import ReactDOM from "react-dom";
 import Carousel from "react-elastic-carousel";
 import Item from "./Item.js";
-import '../styles/Sell.css';
-import { Link } from 'react-router-dom'
-
+import "../styles/Sell.css";
+import { Link } from "react-router-dom";
 
 const breakPoints = [
   { width: 1, itemsToShow: 1 },
-  { width: 20, itemsToShow: 2 },
+  { width: 50, itemsToShow: 2 },
   { width: 768, itemsToShow: 3 },
   { width: 1200, itemsToShow: 4 },
 ];
-const cities=["NANDED","PUNE","MUMBAI","AURANGABAD","NASHIK","HYDERABAD","DELHI"]
+const cities = [
+  "NANDED",
+  "PUNE",
+  "MUMBAI",
+  "AURANGABAD",
+  "NASHIK",
+  "HYDERABAD",
+  "DELHI",
+];
 
 function sell() {
   return (
     <>
-      <h1 style={{ textAlign: "center" }}>FIND YOUR OWN CITY SHOPS!!</h1>
+      <h1 style={{ fontFamily: "Noto Serif", textAlign: "center" }}>
+        FIND YOUR OWN CITY SHOPS!!
+      </h1>
       <div className="App">
-      
         <Carousel breakPoints={breakPoints}>
           {/* <Item onClick={handleItem}>NANDED</Item>
           <Item>PUNE</Item>
@@ -28,8 +36,15 @@ function sell() {
           <Item>NASHIK</Item>
           <Item>HYDRABAD</Item>
           <Item>DELHI</Item> */}
-          {cities.map((item,index)=>(<Link to="/page1"><Item style={{width: '100%'}}>{item}</Item></Link>))}
-        
+          {cities.map((item, index) => (
+            <Link to="/page1">
+              <Item
+                style={{ width: 220, textAlign: "center", borderRadius: 15 }}
+              >
+                {item}
+              </Item>
+            </Link>
+          ))}
         </Carousel>
       </div>
     </>
