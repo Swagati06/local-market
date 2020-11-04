@@ -1,15 +1,16 @@
-import zaraShopImage from "./shopImages/cloth2.jpg";
-import vaibhaviShopImage from "./shopImages/vaibhavi-Shop.jpg";
-import swagatiShopImage from "./shopImages/cloth1.jpg";
-import sakshiShopImage from "./shopImages/cloth3.jpg";
-import cloth1ShopImage from "./shopImages/cloth4.jpg";
-import cloth2ShopImage from "./shopImages/cloth5.jpg";
-import cloth3ShopImage from "./shopImages/cloth6.jpg";
-import cloth4ShopImage from "./shopImages/cloth7.jpg";
-
+import zaraShopImage from "./productImage/product1.jpg";
+import vaibhaviShopImage from "./productImage/product10.jpg";
+import swagatiShopImage from "./productImage/product9.jpg";
+import sakshiShopImage from "./productImage/product4.jpg";
+import cloth1ShopImage from "./productImage/product5.jpg";
+import cloth2ShopImage from "./productImage/product11.jpg";
+import cloth3ShopImage from "./productImage/product7.jpg";
+import cloth4ShopImage from "./productImage/product8.jpg";
 const products = [
   {
     name: "Shirt",
+
+    price: "100",
     slogan: "Buy More, Pay Less!!",
     address: "Anand nagar, near Shardanagar, Nanded",
     img: zaraShopImage,

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import products from "../Data/ClothingProducts";
 
-export default class Clothing extends Component {
+export default class productPage extends Component {
   render() {
     return (
       <div className="p-4">
